@@ -1,0 +1,51 @@
+html {
+  scroll-behavior: smooth;
+}
+body {
+  background: url("https://s3.amazonaws.com/spoonflower/public/design_thumbnails/0187/8582/rrrpineapple_on_light_turquoise_brick_preview.png");
+  background-size: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  text-align: center;
+}
+.section {
+  position: relative;
+  top: 75px;
+  width: 100%;
+  background-color: rgba(255, 165, 0, 0.9);
+  border: 1px solid black;
+  border-radius: 5px;
+}
+.section .expand {
+  padding: 0.7em 0.57em;
+  background-color: rgba(255, 255, 255, .5);
+  border: none;
+}
+.section .expand:focus {
+  outline: 0;
+}
+.section .expand:hover {
+  font-weight: bold;
+  cursor: pointer;
+}
+.section .expandcont {
+  width: 100%;
+  background: none;
+  border: none;
+  top: -15px;
+}
+.section .expandcont * {
+  opacity: 1;
+}
+h1, h2, h3, h4, p {
+  display: inline-block;
+  opacity: 0.75;
+  font-weight: bold;
+  font-family: Arial;
+}
+h1:hover, h2:hover, h3:hover, h4:hover, p:hover {
+  opacity: 1;
+}
+h1, h2 {
+  font-family: Arial Black;
+}
