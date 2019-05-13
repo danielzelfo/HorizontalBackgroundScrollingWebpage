@@ -60,7 +60,7 @@
 			</div>
 			<br />
 			<div class="section">
-				<h1 class="und" id="aboutMe">About Section</h1>
+				<h1 class="und" id="about">About Section</h1>
 				<br />
 				<p>info</p>
 				<br />
